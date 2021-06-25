@@ -1,0 +1,9 @@
+<h2>covid-19</h2>
+
+<% if @rows.present? %>
+  <% @rows.each do |k, v| %>
+    <p><%= k %></p>
+    <p>感染者数:<%= v %></p>
+    <hr>
+  <% end %>
+<% end %>
