@@ -19,7 +19,7 @@ module Scraping
       rows[node.css('td[1]').text] = node.css('td[2]').text
     end
     
-    rows.delete("")
+    rows.drop(1)
 
     return rows
   end
