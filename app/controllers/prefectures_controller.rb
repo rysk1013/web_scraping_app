@@ -5,3 +5,5 @@ class PrefecturesController < ApplicationController
     @rows = set_scraping
   end
 end
+
+# test
